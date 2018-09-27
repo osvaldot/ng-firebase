@@ -1,10 +1,10 @@
 ## Angular Firebase CLI Docker Image
 
-Node.js 8.11.3 LTS
+Node.js 8.12.0 LTS
 
-Angular CLI 6.0.8
+Angular CLI 6.2.3
 
-Firebase CLI 3.18.6
+Firebase CLI 4.2.1
 
 # Create a new project in current directory
 docker run -it --rm -v $(pwd):/opt/app osvaldotulini/ng-firebase ng new my-app --directory="opt/app"
